@@ -1,6 +1,8 @@
 # MysqlN
 伪造一个Mysql服务端,使其迷惑攻击者躲避爆破攻击
 
+.NET CORE windows以及linux与mac  SDK下载地址:https://dotnet.microsoft.com/download
+
 首次使用请在程序中输入Mysql Help,来查看帮助命令
 
 你可以在程序中设置启动的IP,启动的端口,甚至还可以设置Mysql版本,添加可登陆的用户,当然这个可登陆的用户只是返回客户端登陆成功而已,并不会实际影响到Mysql本身
