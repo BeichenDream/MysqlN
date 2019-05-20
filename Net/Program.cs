@@ -1,15 +1,16 @@
-﻿using System;
+﻿using Mysql.MysqlData;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
-namespace MysqlN
+namespace MysqlT
 {
     class Program
     {
-        public static void Main(string[] age)
-        {
+        public static void Main(string[] age) {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine(@"
 ___.          .__       .__                   
@@ -19,13 +20,15 @@ ___.          .__       .__
  |___  /\___  >__|\___  >___|  /\___  >___|  /
      \/     \/        \/     \/     \/     \/ 
 
-            by:BeiChen In BeichenDream");
+            by:BeiChen In BeichenDream
+
+            Mail:rroort@qq.com");
             Console.WriteLine();
             Console.WriteLine();
-            App.Command.Write("", "", ConsoleColor.DarkMagenta);
+            App.Command.Write("","",ConsoleColor.DarkMagenta);
             Mysql.Config.init();
             App.Command.Run();
-
+            
         }
-    }
+        }
 }
