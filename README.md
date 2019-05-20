@@ -1,6 +1,8 @@
 # MysqlN
 伪造一个Mysql服务端,使其迷惑攻击者躲避爆破攻击
 
+使用教程:https://www.bilibili.com/video/av53020564/
+
 .NET CORE windows以及linux与mac  SDK下载地址:https://dotnet.microsoft.com/download
 
 首次使用请在程序中输入Mysql Help,来查看帮助命令
