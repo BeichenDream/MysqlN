@@ -25,9 +25,9 @@ ___.          .__       .__
             Mail:rroort@qq.com");
             Console.WriteLine();
             Console.WriteLine();
-            App.Command.Write("","",ConsoleColor.DarkMagenta);
+            MysqlN.App.Command.Write("","",ConsoleColor.DarkMagenta);
             Mysql.Config.init();
-            App.Command.Run();
+            MysqlN.App.Command.Run();
             
         }
         }
