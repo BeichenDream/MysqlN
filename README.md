@@ -13,7 +13,9 @@
 
 如果你想删除可登陆的用户,请在程序根路径删除MysqlN.bin文件与User.data文件
 
+退出程序时,建议使用 App Exit命令,这样会保存当前的配置
 
+本程序命令行的命令不区分大小写,你可以Mysql Help,也可以mysql help 或MYSQL HELP
 ### 安装教程
 .NET CORE windows以及linux与mac  SDK下载地址:https://dotnet.microsoft.com/download
 
