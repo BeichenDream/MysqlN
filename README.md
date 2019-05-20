@@ -17,7 +17,7 @@
 ### 安装教程
 .NET CORE windows以及linux与mac  SDK下载地址:https://dotnet.microsoft.com/download
 
- Linux 64位一键安装:curl -sSL -o dotnet.tar.gz https://download.visualstudio.microsoft.com/download/pr/ece856bb-de15-4df3-9677-67cc817ffc1b/521da52132d23deae5400b8e19e23691/dotnet-sdk-2.2.204-linux-x64.tar.gz&&sudo mkdir -p /opt/dotnet && sudo tar zxf dotnet.tar.gz -C /opt/dotnet&&sudo ln -s /opt/dotnet/dotnet /usr/local/bin
+ Linux 64位一键安装SDK:  curl -sSL -o dotnet.tar.gz https://download.visualstudio.microsoft.com/download/pr/ece856bb-de15-4df3-9677-67cc817ffc1b/521da52132d23deae5400b8e19e23691/dotnet-sdk-2.2.204-linux-x64.tar.gz&&sudo mkdir -p /opt/dotnet && sudo tar zxf dotnet.tar.gz -C /opt/dotnet&&sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 
 更改代码以及发布代码,请注明版权
 
