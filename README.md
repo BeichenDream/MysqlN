@@ -1,6 +1,17 @@
 # MysqlN
 伪造一个Mysql服务端,使其迷惑攻击者躲避爆破攻击
 
+支持用户验证
+
+支持自定义Mysql版本
+
+随机的Salt加密,加上用户验证,让攻击者毫无察觉
+
+Net文件夹是.NET程序只能运行在Windows
+
+NetCore文件夹是.NET CORE程序可以运行在 Windows,Linux,MAC
+
+
 使用教程:https://www.bilibili.com/video/av53020564/
 
 首次使用请在程序中输入Mysql Help,来查看帮助命令
